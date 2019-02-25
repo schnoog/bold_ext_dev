@@ -52,7 +52,7 @@ class ExtensionNameExtension extends SimpleExtension
         $config = $this->getConfig();
         $app = $this->getContainer();
     
-        $script = '<script type="text/javascript>var tmp=12;</script>'
+        $script = '<script type="text/javascript>var tmp=12;</script>';
         $script = str_replace("%shortname%", $config->get('disqus_name'), $script);
         $asset = new Snippet();
         $asset->setCallback($script)
