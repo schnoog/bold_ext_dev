@@ -15,7 +15,7 @@ use Twig\Markup;
  *
  * @author Your Name <you@example.com>
  */
-class MygalleryExtension extends SimpleExtension
+class MyGalleryExtension extends SimpleExtension
 {
 
     protected function registerTwigFunctions()
